@@ -3,6 +3,8 @@
 set -e
 set -v
 
+export KEYNAME=assaf.morami@gmail.com
+
 (
     set -e
     set -v
@@ -13,7 +15,14 @@ set -v
     dpkg-scanpackages . > Packages
     gzip -k -f Packages
 
-    # Release & Release.gpg
+    # Release & 
     apt-ftparchive release . > Release
-    gpg --default-key assaf.morami@gmail.com -abs -o Release.gpg Release
+
+    # Release.gpg
+    rm -f Release.gpg
+    gpg --default-key ${KEYNAME} -abs -o Release.gpg Release
+
+    # InRelease
+    rm -f InRelease
+    gpg --default-key ${KEYNAME} --clearsign -o InRelease Release
 )
