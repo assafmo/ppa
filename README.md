@@ -1,8 +1,8 @@
 A PPA repository for my packages:
 
-- joincap
-- xioc
-- SQLiteQueryServer
+- [joincap](https://github.com/assafmo/joincap)
+- [xioc](https://github.com/assafmo/xioc)
+- [SQLiteQueryServer](https://github.com/assafmo/SQLiteQueryServer)
 
 # Usage
 
