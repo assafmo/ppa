@@ -20,9 +20,9 @@ export KEYNAME=assaf.morami@gmail.com
 
     # Release.gpg
     rm -f Release.gpg
-    gpg --default-key ${KEYNAME} -abs -o Release.gpg Release
+    gpg --default-key "${KEYNAME}" -abs -o Release.gpg Release
 
     # InRelease
     rm -f InRelease
-    gpg --default-key ${KEYNAME} --clearsign -o InRelease Release
+    gpg --default-key "${KEYNAME}" --clearsign -o InRelease Release
 )
