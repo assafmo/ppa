@@ -15,7 +15,7 @@ export KEYNAME=assaf.morami@gmail.com
     dpkg-scanpackages . > Packages
     gzip -k -f Packages
 
-    # Release & 
+    # Release
     apt-ftparchive release . > Release
 
     # Release.gpg
