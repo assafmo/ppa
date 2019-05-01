@@ -1,0 +1,40 @@
+Package: SQLiteQueryServer
+Version: 1.3.2
+Architecture: amd64
+Maintainer: Assaf Morami <assaf.morami@gmail.com>
+Installed-Size: 14460424
+Filename: ./sqlitequeryserver_1.3.2_amd64.deb
+Size: 6495412
+MD5sum: 9f60efe8313919ea12fd68ffba44151a
+SHA1: 5bf2afdc270a2a9a62a4518e6f5b86725521dc96
+SHA256: 2c55805967ae9880f628181606fa3a1c94f67fca3a0bd031831f3c7bdac0a984
+Priority: optional
+Homepage: https://github.com/assafmo/SQLiteQueryServer
+Description: Bulk query SQLite database over the network.
+
+Package: joincap
+Version: 0.10.1
+Architecture: amd64
+Maintainer: @assafmo
+Filename: ./joincap_0.10.1_amd64.deb
+Size: 2681272
+MD5sum: 03970734431236298ac89f633af4cb9d
+SHA1: 64166d2b9fc0bb79843a11fcbf485f2114d3364b
+SHA256: cafa647262b6d977cb4c598b5422aab783b700b8d91839fe8bcedd6c8ba92fb0
+Priority: optional
+Homepage: https://github.com/assafmo/joincap
+Description: Merge multiple pcap files together, gracefully.
+
+Package: xioc
+Version: 1.1.11
+Architecture: amd64
+Maintainer: Assaf Morami <assaf.morami@gmail.com>
+Filename: ./xioc_1.1.11_amd64.deb
+Size: 1428680
+MD5sum: 562f62d2698f67d54811ec181264296d
+SHA1: 26172a784a0ebc8b21c0ae952df581ac592bf395
+SHA256: ace63b5047511a1d8e0c2f4b181128ca2b583a4463712369c37aeb16db273503
+Priority: optional
+Homepage: https://github.com/assafmo/xioc
+Description: Extract indicators of compromise from text, including "escaped" ones.
+
