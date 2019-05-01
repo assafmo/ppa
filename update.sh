@@ -15,14 +15,8 @@ export KEYNAME=assaf.morami@gmail.com
     dpkg-scanpackages . > Packages
     gzip -k -f Packages
 
-    # Release
+    # Release, Release.gpg & InRelease
     apt-ftparchive release . > Release
-
-    # Release.gpg
-    rm -f Release.gpg
-    gpg --default-key "${KEYNAME}" -abs -o Release.gpg Release
-
-    # InRelease
-    rm -f InRelease
-    gpg --default-key "${KEYNAME}" --clearsign -o InRelease Release
+    gpg --default-key "${KEYNAME}" -abs -o - Release > Release.gpg
+    gpg --default-key "${KEYNAME}" --clearsign -o - Release > InRelease
 )
