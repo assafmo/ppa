@@ -12,7 +12,7 @@ export KEYNAME=assaf.morami@gmail.com
     cd ./ubuntu/
 
     # Packages & Packages.gz
-    dpkg-scanpackages . > Packages
+    dpkg-scanpackages --multiversion . > Packages
     gzip -k -f Packages
 
     # Release, Release.gpg & InRelease
