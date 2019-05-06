@@ -12,6 +12,20 @@ Priority: optional
 Homepage: https://github.com/assafmo/SQLiteQueryServer
 Description: Bulk query SQLite database over the network.
 
+Package: SQLiteQueryServer
+Version: 1.4.0
+Architecture: amd64
+Maintainer: Assaf Morami <assaf.morami@gmail.com>
+Installed-Size: 14462
+Filename: ./sqlitequeryserver_1.4.0_amd64.deb
+Size: 6499136
+MD5sum: cb314c9b64b0dd55e74b97d76a1b66e4
+SHA1: 7bc0a887da100c6ec89f5e70a1afe8bcf57bddf6
+SHA256: db17402015352b3d2eb103a9b0096599e08471fdd99d317cf91f64ddd30af92c
+Priority: optional
+Homepage: https://github.com/assafmo/SQLiteQueryServer
+Description: Bulk query SQLite database over the network.
+
 Package: joincap
 Version: 0.10.1
 Architecture: amd64
