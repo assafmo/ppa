@@ -3,7 +3,7 @@
 set -e
 set -v
 
-export KEYNAME=assaf.morami@gmail.com
+export KEYNAME=91179AA1A67CC24B34182F6DD31B19D84B2E120C
 
 (
     set -e
