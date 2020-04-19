@@ -68,3 +68,17 @@ Priority: optional
 Homepage: https://github.com/assafmo/xioc
 Description: Extract indicators of compromise from text, including "escaped" ones.
 
+Package: xioc
+Version: 1.1.12
+Architecture: amd64
+Maintainer: Assaf Morami <assaf.morami@gmail.com>
+Installed-Size: 2343
+Filename: ./xioc_1.1.12_amd64.deb
+Size: 767452
+MD5sum: 2f79116115998d3b634d4a7a7c31a887
+SHA1: 65a9e3f39add5ffc5a96438d66bee5cc69b9f8d5
+SHA256: bd73d8cce7c0754fa193a02fe56c168946a11972abb0430b5c90728e82a8b101
+Priority: optional
+Homepage: https://github.com/assafmo/xioc
+Description: Extract indicators of compromise from text, including "escaped" ones.
+
