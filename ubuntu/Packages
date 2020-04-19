@@ -16,12 +16,12 @@ Package: SQLiteQueryServer
 Version: 1.4.0
 Architecture: amd64
 Maintainer: Assaf Morami <assaf.morami@gmail.com>
-Installed-Size: 14462
+Installed-Size: 10173
 Filename: ./sqlitequeryserver_1.4.0_amd64.deb
-Size: 6499136
-MD5sum: cb314c9b64b0dd55e74b97d76a1b66e4
-SHA1: 7bc0a887da100c6ec89f5e70a1afe8bcf57bddf6
-SHA256: db17402015352b3d2eb103a9b0096599e08471fdd99d317cf91f64ddd30af92c
+Size: 3210228
+MD5sum: 6b1d8b7589972ee26a0526b3db1f7884
+SHA1: 206ff9796dfb084aa4ca8941ea35b615f8a03bd0
+SHA256: 402be15b251aa80894bce1b9001f16cb9530c7d4992b0fae0030fba21c1533c7
 Priority: optional
 Homepage: https://github.com/assafmo/SQLiteQueryServer
 Description: Bulk query SQLite database over the network.
