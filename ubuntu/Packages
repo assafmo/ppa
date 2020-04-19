@@ -44,12 +44,12 @@ Package: joincap
 Version: 0.10.2
 Architecture: amd64
 Maintainer: Assaf Morami <assaf.morami@gmail.com>
-Installed-Size: 6458
+Installed-Size: 4674
 Filename: ./joincap_0.10.2_amd64.deb
-Size: 2750076
-MD5sum: 08fbcabbfcb02699272effd6b5c268fa
-SHA1: 3f51570ae24c7cb5a0a57b9e50da63b7983833bc
-SHA256: c6a91a0f61f248e47a6a111040b1ba9ae3932ac5736365295070ae06693e1604
+Size: 1379088
+MD5sum: c3b82a3c640db64a6cc5ac4eee0c87de
+SHA1: 1afc38991c0c8f75358056dc563975928f547f0a
+SHA256: 6b58b5be4afa342c1c38b99500f65e935426bb1ff4bde1b9edead3b28a48bb5f
 Priority: optional
 Homepage: https://github.com/assafmo/joincap
 Description: Merge multiple pcap files together, gracefully.
