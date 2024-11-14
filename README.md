@@ -7,8 +7,8 @@ A PPA repository for my packages:
 # Usage
 
 ```bash
-sudo curl -SsL -o /etc/apt/trusted.gpg.d/assafmo.gpg https://assafmo.github.io/ppa/ubuntu/KEY.gpg
-sudo curl -SsL -o /etc/apt/sources.list.d/assafmo.list https://assafmo.github.io/ppa/ubuntu/assafmo.list
+curl -fsSL https://assafmo.github.io/ppa/ubuntu/KEY.gpg | sudo gpg --dearmor -o /usr/share/keyrings/assafmo-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/assafmo-archive-keyring.gpg] https://assafmo.github.io/ppa/ubuntu ./" | sudo tee /etc/apt/sources.list.d/assafmo.list
 sudo apt update
 sudo apt install joincap xioc sqlitequeryserver
 ```
