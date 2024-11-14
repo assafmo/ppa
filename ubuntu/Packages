@@ -54,6 +54,20 @@ Priority: optional
 Homepage: https://github.com/assafmo/joincap
 Description: Merge multiple pcap files together, gracefully.
 
+Package: joincap
+Version: 0.11.0
+Architecture: amd64
+Maintainer: Assaf Morami <assaf.morami@gmail.com>
+Installed-Size: 3630
+Filename: ./joincap_0.11.0_amd64.deb
+Size: 1234422
+MD5sum: 781ac656864b0b13115439bdff7fd237
+SHA1: c712b744f9ff2d54a336f21ad376c3223a3c2d47
+SHA256: c474d91a1a0eb7cc99b6f7dd9d4f0077bb8a8b0055459ac9425671b7f72b0539
+Priority: optional
+Homepage: https://github.com/assafmo/joincap
+Description: Merge multiple pcap files together, gracefully.
+
 Package: xioc
 Version: 1.1.11
 Architecture: amd64
