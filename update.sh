@@ -19,4 +19,8 @@ export KEYNAME=91179AA1A67CC24B34182F6DD31B19D84B2E120C
     apt-ftparchive release . > Release
     gpg --default-key "${KEYNAME}" -abs -o - Release > Release.gpg
     gpg --default-key "${KEYNAME}" --clearsign -o - Release > InRelease
+
+    # Sign
+    gpg --yes --clearsign -o InRelease Release
+    gpg --yes -abs -o Release.gpg Release 
 )
